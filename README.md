@@ -7,6 +7,7 @@
 ``` bash
 # install dependencies
 npm install
+需要安装一下cnpm或者翻墙
 
 # serve with hot reload at localhost:8080
 npm run dev
