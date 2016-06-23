@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>my-vue</title>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+<div id="app">
+  <h1>Hello App!</h1>
+  <p>
+    <a v-link="{ path: '/foo' }">Go to /foo</a>
+    <a v-link="{ path: '/' }">Go to /</a>
+    <a v-link="{ path: '/foo/bar' }">Go to /foo/bar</a>
+    <a v-link="{ path: '/foo/baz' }">Go to /foo/baz</a>
+  </p>
+  <router-view></router-view>
+</div>
+<!-- built files will be auto injected -->
+</body>
+</html>
